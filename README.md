@@ -17,7 +17,7 @@ Extracts FSC (Fee Schedule Code) billing codes from Quebec RAMQ physician fee sc
 ## Setup
 
 ```bash
-uv sync
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ uv sync
 Place the RAMQ PDF in `inputs/`, then run:
 
 ```bash
-uv run python main.py
+python main.py
 ```
 
 ## How it works
